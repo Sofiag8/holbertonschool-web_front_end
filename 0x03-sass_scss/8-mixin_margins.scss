@@ -1,0 +1,14 @@
+/* assigning: Margin left and right at 10px to body tags */
+@mixin my-margin-mixin ($property) {
+    margin-left: $property;
+    margin-right: $property;
+}
+
+
+body {
+    @include my-margin-mixin(10px);
+}
+
+div {
+    @include my-margin-mixin(15px);
+}

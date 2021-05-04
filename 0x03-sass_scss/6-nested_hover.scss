@@ -1,0 +1,7 @@
+/* assigning Text color #FF0000 to button tags */
+button {
+    color: #FF0000;
+    &:hover {
+        color: #00FF00;
+    }
+}
